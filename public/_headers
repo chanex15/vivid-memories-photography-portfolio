@@ -1,20 +1,11 @@
-# Run this in your project root:
-cat > public/_headers << 'EOF'
 /*
   Content-Type: text/html; charset=utf-8
 
 /*.js
   Content-Type: application/javascript; charset=utf-8
 
+/*.mjs
+  Content-Type: application/javascript; charset=utf-8
+
 /*.css
   Content-Type: text/css; charset=utf-8
-
-/*.json
-  Content-Type: application/json
-
-/*.png,/*.jpg,/*.jpeg,/*.gif,/*.svg,/*.webp,/*.avif
-  Content-Type: image/*
-
-/*.woff,/*.woff2,/*.ttf,/*.eot,/*.otf
-  Content-Type: font/*
-EOF
