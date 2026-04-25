@@ -9,3 +9,12 @@
 
 /*.css
   Content-Type: text/css; charset=utf-8
+
+/*.json
+  Content-Type: application/json
+
+/*.png,/*.jpg,/*.jpeg,/*.gif,/*.svg,/*.webp,/*.avif,/*.ico
+  Content-Type: image/*
+
+/*.woff,/*.woff2,/*.ttf,/*.eot,/*.otf
+  Content-Type: font/*
